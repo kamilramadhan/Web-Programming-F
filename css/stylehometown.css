@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    /*overflow-x: hidden;*/
+    min-height: 100vh;
+    background: #f5f5f5;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background: #f5f5f5;
+}
+
+.logo {
+    font-size: 2.5em;
+    color: #4289b6;
+    text-decoration: none;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #242424;
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-weight: 600;
+}
+
+.nav a:hover,
+.nav a.active{
+    background: #4289b6;
+    color: white;
+}
+
+.kamil {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+    z-index: -10;
+}
+
+.kamil2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150%;
+    pointer-events: none;
+}
+
+.home {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* This pushes content to the right */ 
+}
+
+.home-content h1 {
+    font-size: 200px;
+    color: #4289b6;
+
+    margin-right: 200px;
+    z-index: 10;
+}
+
+.penjelasan {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    max-width: 600px;
+    background-color: #4289b6;
+    border-radius: 5%;
+    text-align: center;
+
+}
+
+
+
